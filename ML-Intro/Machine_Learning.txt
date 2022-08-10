@@ -1,0 +1,224 @@
+												Machine Learning
+
+Introduction:
+
+-> Machines are getting sharper and smarter than humans.
+-> A chess playing computer called DEEP BLUE was designed by IBM to interact with real time chess champions.
+-> It also defeated world champion Garry Kasparov.
+-> Inputs taken while playing formulates into an algorithm.
+-> Machines tend to be over smart than humans and are capable of making bold decisions.
+-> Machine Learning  has been practiced since 1970's and the term was coined in 1959.
+-> "A computer program is said to learn from experience with respect to some class of tasks and performance 
+measures.Its performance improves with more exposure to tasks".
+-> Alan Turing published a paper named "Computer Machinery and Intelligence" which discussed the growing
+inclination towards the machine learning and also where the machine can think like humans or not.
+
+Getting Started:
+
+-> ML has taken the market by storm.
+-> Individuals from different backgrounds want to get into this field.
+-> Nowadays IOT devices,sensors and CCTV cameras are used to collect data that provide useful insights to 
+learn and explore new areas of improvement for the company.
+
+Basic Fundamental Steps:
+	Supervised ML:
+		-> This learning includes algorithm that are designed based on the target variable, which is to be
+		predicted or calculated with a given set of  independent values known as predictors.
+		-> Starts with the analysis of the known training dataset, the learning algorithm produces an inferred
+		function that makes prediction about the output values.
+	
+	Unsupervised ML:
+		-> This learning includes algorithm that are used for clustering and has no target variable of the 
+		coefficient to predict in the picture.
+		-> K-Means and Apriori are prime examples of this kind of learning.
+		-> Unsupervised ML studies shows how the systems can infer a function and describe the hidden structure
+		from the unlabelled data.
+		
+	Reinforcement ML:
+		-> It is a learning techniques that interacts with its environment and produces actions and then 
+		discovers errors or rewards.
+		-> Trial and Error Search and delayed rewards are the most relevant characteristics of the reinforcement
+		Machine learning.
+		-> This enables machines to automatically determine the ideal behaviour with the specific context in order
+		to maximize its performance.
+		
+Groundwork:
+	-> Machine Learning is derived from statistics as its base.
+	-> Statistics is the subdivision of mathematics that deals with the data collection, categorization, 
+	interpretation and presentation.
+	-> It can handle all phases of data, including the planning of data collection in terms of the designs of 
+	surveys and experiments.
+	-> At times when companies need a profitable business model which can deliver interms of flexibility and 
+	reliability, they are bound to apply machine learning techniques to deliver immense value to the business.
+	-> The company has to look into some glaring factors which could shape the foundation for these technologies.
+	
+Reinforcement Learning in Machine Learning:
+	-> It is an important foundation for artificial intelligence.
+	-> It has a dynamic programming mechanism that trains the agent using constants of success and failure.
+	-> It needs to have an uninterrupted interaction with its current surroundings by absorbing and gaining from it.
+	This process is carried out for quite some time until the host understands the difference between right and wrong.
+	-> Considering that external human intervention is minimal, the agents can learn and interpret the current scenario
+	on their own.
+	
+	-> ML has an integral part to play in reinforcement learning as the agents learn from their mistakes and ensure
+	that it won't repeat again.
+	-> But unlike ML, where the machines are expected to produce a certain output, this training agents come up with
+	their own observations and inferences.
+	-> There are certain algorithms of control learning that are used to execute this process like a criterion for 
+	optimality, brute force and direct policy search.
+	-> Example of reinforcement learning includes Boston Dynamics, a newly invented agent Spotmini.It was designed
+	and manufactured on the principles of self-learning and self-evaluation, which made it easy to overcome external 
+	circumstances while closing a door.
+	
+Statistics as the BASE in ML:
+	-> Statistics deals with the data collection, preparation, examination and presentation.Statistical population
+	or statistical model analysis are taken care of with the help of stats.
+	-> Statisticians came up with interesting insights and findings that are used for different statistical techniques
+	in data before machine learning became mainstream.
+	-> They used to undergo the task of :
+			-> Assembling the measurements of the system under the radar.
+			-> Manipulating
+			-> Capturing additional measurements.
+			-> Determine if the manipulation has changed the values of the readings or not.
+	
+	Fundamentals in Statistics:
+		-> Mean and Median:
+				-> Mean is the arithmetic average of the data values.It comes under the central tendency of stats.Mean 
+				takes into consideration all the values for computation.
+				-> Median is the central observation when all observations are arranged in order of magnitude. It is a 
+				important measure of central tendency.Median is the observation that divides the series into two equal 
+				halves.
+		
+		-> Skewness, Kurtosis and Variance:
+				-> Skewness illustrates the level of degree a set of data varies when compared to standard distribution
+				in a set of statistical data.
+				-> Its resultant curve depends on the data, whether the data is having positive or negative skew towards
+				the data average.
+				
+				-> Kurtosis measures the data for light-tailed which means less outlier prone or heavy-tailed when compared
+				to the normal distribution.
+				
+				-> Variance is the measurement of the span of numbers in a dataset.It is also the square of standard deviation.
+	
+ML MODELS:
+	
+	-> Linear Regression:
+			-> Part of predictive analysis.
+			-> Common algorithm used for prediction of data values in numeric form.
+			-> Numeric input and output values.
+			-> Coefficient represented by beta in a linear equation.
+			-> Another coefficient is added, providing the line and additional degree of freedom, which is known as intercept.
+			-> A simple linear regression equation represented as: Y = β0 + β1 x
+		-> The overall notion of regression is to examine two important criteria:
+			-> Given a group of input variables predict the dependent variable.
+			-> Which variables are real predictors of the dependent variable and what is their impact on the outcome variable?
+		-> Reliability of linear regression model can be tested with the help of the following functions:
+			
+			-> Line of Best Fit:
+					-> Validation line which explains the direct correlation between the observed values and the calculated ones.
+					-> Helps to understand the difference in distance of the predicted values to the real ones.
+					-> Residuals are symbolized by the vertical lines showing the comparison between the predicted values and 
+					the actual values.
+					
+								Figure for Line of Best Fit => Refer 1(A)
+								
+		-> Gradient Descent:
+			-> Introduced in linear regression in order to find the minimalistic cost of a function in the equation.
+			-> Depending on the convex function, gradient descent function makes a small changes to minimize function to a 
+			possible local minimum.
+			-> Two important terms:
+				-> Learning rate and Cost function.
+				-> Size of each step measured by the learning rate.
+				-> The curve plotted has its own slope which updates the parameters and how to make the model more accurate.
+				It is known as cost function.
+	
+	-> Polynomial Regression:
+			-> Used to find the relation between the dependent and the independent variable.
+			-> In linear regression, the line of best fit my end up under-fitting the data points.
+			-> Polynomial regression improves the model and finds a more subtle relationship between the variables.
+			-> Focus on the curve at the ends and check whether those trends make any sense.Sometimes, higher polynomials 
+			may end up producing mysterious results on extrapolation.
+			
+								Figure for Polynomial Regression => Refer 1(B)
+			
+	-> Lasso Regression:
+			-> Least absolute shrinkage and selection operator is similar to ridge regression in terms of working which
+			changes the size of regression coefficients.
+			-> Can reduce variablility.
+			-> Advances the accuracy of linear regression models.
+			-> Lasso regression handles real absolute values in the penalty functions rather than in squares like in Rich.
+			This enables it to penalize values which caused some of the paramater estimates to be exactly zero.
+			-> If the penalty is high, then the estimates get shrunk to zero.This results in variable selection out of
+			the given n variables.
+			-> Assumptions made in the algorithm are:
+					-> Same as the least square regression except that normality is not to be assumed here.
+					-> Shrinks the coefficients to zero.
+					-> Uses Regularisation technique and adopts L1 regularisation.
+					-> If a group of predictors is highly correlated, then it picks one of them and shrinks the others to zero.
+					
+Clustering Models of ML:
+	-> K-Means Clustering:
+			-> Unsupervised learning algorithm
+			-> Utilized for unlabelled data.
+			-> Modus operandi of k-means is to determine the number of groups present in the data.These groups are 
+			represented as "k".
+			-> The algorithm assigns each data point to one of the "k" groups iteratively.These data points are clustered
+			together based on similarity.
+			-> Clustering can be :
+				-> Used for exploratory data analysis to get a rough estimation of the structure of data.
+				-> Used to find the subgroups in the data where the data points in the subgroup are similar to each other
+				in characteristics while points in other groups are different.
+			-> k-means has the job of polarizing homogeneous subgroups within the data, wherein all the data points in all
+			the groups exist within the data are similar.
+
+			-> Basic steps used to cluster any data point are:
+					-> Define the number of "k" clusters.
+					-> Intialize the centroids.
+					-> Perform this iteration until there is no change to the centroids.
+					-> Sum of the squared distance between the dtaa points and all centroids.
+					-> Assign each data point to the closest centroid.
+					-> Estimate the centroid for the clusters by taking the average of all the data points that are
+					assigned to each cluster.
+			
+			-> Usecases:
+					-> Managing Sensors: Sensors collect different types like audios, images etc... in its database.
+					K-Means is used to separate that data and create different categories.
+					-> Managing Inventory: An inventory consists of diverse data like sales activity, manufacturing data,
+					import-export data etc... which is grouped into categories by k-means.
+	
+	-> Hierarchical Clustering:
+			-> Hierarchy is level of clusters that are involved in the dataset.
+			-> Hierarchical Clustering involves groups of clusters which are merged and its working can be shown in the
+			form of dendrogram.
+			
+			-> Types:
+					-> Divisive:
+						-> Also known as top-down clustering.
+						-> Includes data points assigned to single cluster which can be segregated into two or more 
+						similar looking clusters.
+						-> Each cluster is examined recursively until the algorithm settles for one data point.
+						-> Has more rewards when compared to the agglomerative approach due to its capability of 
+						producing more accurate hierarchies for diverse datasets.
+					
+					-> Agglomerative:
+						-> Defines a bottom-up approach.
+						-> Assigns the clusters to the data points and merges them with each other just like divisive.
+						-> Mandatory to introduce a proximity matrix which contains the distance between each point with
+						the help of distance function.
+						-> This matrix needs to be updated for it to display the distance between each cluster.
+						
+						-> Three methods used to check the distance between each cluster:
+							-> Single  Linkage: Includes the concept of defining the distance between two clusters as 
+							the shortest distance between two points in each cluster.
+							
+											Figure for Single Linkage => Refer 1(C)
+										
+							-> Complete Linkage: The longest distance between points of two nearby clusters which can 
+							also be termed as the longest distance for each cluster is defined in the complete linkage.
+							
+											Figure for Complete Linkage => Refer 1(D)
+							
+							-> Average Linkage: This defines the average distance between data points of two nearest
+							clusters.
+							
+											Figure for Average Linkage => Refer 1(E)
